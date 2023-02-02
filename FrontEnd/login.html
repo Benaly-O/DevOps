@@ -30,7 +30,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
    </head>
    <!-- body -->
-   <body class="main-layout position_head">
+   <body class="main-layout position_head" background="images/back2.jpg">
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
@@ -59,26 +59,21 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item ">
-                                 <a class="nav-link" href="index.html">Home</a>
+                                 <a class="nav-link" href="index.html">Accueil</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
+                                 <a class="nav-link" href="about.html">A propos</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="glasses.html">Our Glasses</a>
+                                 <a class="nav-link" href="glasses.html">Nos produits</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="shop.html">Shop</a>
+                                 <a class="nav-link" href="shop.html">Boutique</a>
                               </li>
                               <li class="nav-item active">
-                                 <a class="nav-link" href="contact.html">Contact Us</a>
+                                 <a class="nav-link" href="contact.html">Contact</a>
                               </li>
-                              <li class="nav-item d_none login_btn">
-                                 <a class="nav-link" href="#">Login</a>
-                              </li>
-                              <li class="nav-item d_none">
-                                 <a class="nav-link" href="#">Register</a>
-                              </li>
+                              
                               <li class="nav-item d_none sea_icon">
                                  <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
                               </li>
@@ -97,40 +92,23 @@
          <div class="container">
             <div class="row">
                <div class="col-md-6">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <h3>Contact Us</h3>
-                        </div>
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
-                        </div>
-                        <div class="col-md-12">
-                            <input class="contactus" placeholder="Email" type="type" name="Email">                          
-                         </div>
-                        <div class="col-md-12">
-                           <input class="contactusmess" placeholder="Mot de pass" type="type" Message="Name">
-                        </div>
-            
-                        <div class="col-md-12">
-                           <button type="submit" class="send_btn">Connexion</button>
-                        </div>
-                        <div class="col-md-12">
-                            <p><a href="inscription.html"> Pas de compte?</a></p>
-                         </div>
-                     </div>
-                  </form>
+                  <div class="div1">
+                     <form align="center" action="verification.php" method="post">
+                       <h1>Connectez vous ici</h1> 
+                     <input type='email' name='mail' placeholder="Email" id="input1"><br>
+                     <input type='password' name='mot_de_passe'placeholder="Mot De Passe" id="input2"><br>
+                        <input type="submit" value="valider" class="btn ">  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                        <input type="reset" value="annuler" class="btn"><br>
+                       <p><a href=incription.html> pas de compte? </a></p>
+                   
+                    </form>
+                   </body>
+                   </div>
+                   
                </div>
             </div>
          </div>
-         <div class="container-fluid">
-            <div class="map_section">
-               <div id="map">
-               </div>
-            </div>
-         </div>
-      </div>
-      </div>
+         
       <!-- end contact section -->
       <!--  footer -->
       <footer>

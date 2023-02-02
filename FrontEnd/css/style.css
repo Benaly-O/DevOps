@@ -44,6 +44,11 @@ body {
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+     opacity: 10;
 }
 
 a {
@@ -257,7 +262,7 @@ button {
 
 .navigation.navbar {
      float: right;
-     background: #fff;
+     background:  rgb(253 224 71);;
      clear: both;
      padding: 23px 25px !important;
      border-radius: 64px;
@@ -273,14 +278,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #03cafc;
+     color: rgb(253 224 71);;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #03cafc;
+     color:  rgb(253 224 71);;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -310,7 +315,8 @@ button {
      background: transparent;
      position: absolute;
      z-index: 999;
-     border-top: #090102 solid 11px;
+     border-top:  #4b4b4c 11px;
+    
 }
 
 .logo {
@@ -698,6 +704,19 @@ button {
      display: block;
      font-weight: 600;
      padding: 0;
+     
+}
+.contact  h3 {
+     color: #4b4b4c;
+     font-size: 27px;
+     line-height: 30px;
+     text-align: center;
+     display: block;
+     font-weight: 600;
+     padding: 0;
+     margin-left: 350px;
+     margin-bottom: 200px;
+     
 }
 
 #map {
@@ -719,17 +738,21 @@ button {
      width: 100%;
      height: 57px;
      background: transparent;
-     color: #4b4b4c;
+   
      font-size: 18px;
      font-weight: normal;
      border-top: inherit;
      border-left: inherit;
      border-right: inherit;
+     
 }
+
 
 .main_form .contactusmess {
      border-bottom: #111111 solid 1px;
      margin-bottom: 25px;
+    
+     
      width: 100%;
      padding-top: 40px;
      padding-bottom: 14px;
@@ -741,6 +764,7 @@ button {
      border-top: inherit;
      border-left: inherit;
      border-right: inherit;
+    
 }
 
 .send_btn {
@@ -765,6 +789,91 @@ button {
      color: #4b4b4c;
      opacity: 1;
 }
+body
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+  color: #4b4b4c;
+  font-size: 25px;
+  padding-top: 105px;
+}
+
+.div1
+{
+  background: rgb(253 224 71);;
+  
+  width: 550px;
+  height: 600px;
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-left: 300px;
+  opacity: 2;
+  margin-bottom: 80px;
+}
+p a{
+     color: #4b4b4c;
+  text-decoration: none;
+
+}
+.btn
+{
+  border-radius: 30px;
+  margin-top: 60px;
+  background:  #4b4b4c;
+  
+  font-size: 18px;
+ 
+  color: rgb(253 224 71);;
+  height: 40px;
+ 
+  transition: ease-in all 0.5s;
+  text-transform: uppercase;
+  
+}
+.btn:hover {
+     background: rgb(253 224 71);;
+     transition: ease-in all 0.5s;
+}
+p a:hover{
+  color: rgb(253 224 71);;
+}
+input{
+  border-radius: 5px;
+  width: 150px;
+}
+#input2
+{
+   margin-top: 50px;
+   width: 320px;
+}
+
+#input1
+{
+   margin-top: 40px;
+   width: 320px;
+}
+
+form input[type="email"],form input[type="password"]
+{
+  border: none;
+  border-bottom: 3px solid   #4b4b4c;;
+  background-color: transparent;
+  outline: none;
+  height: 40px;
+  display: 16px;
+  color: #4b4b4c;;
+}
+input::placeholder
+{
+  color: #4b4b4c;;
+}
+
+
+
 
 
 /** end contact section **/
@@ -773,11 +882,12 @@ button {
 /** footer **/
 
 .footer {
-     background: #252525;
+     background:  #4b4b4c;
      padding-top: 90px;
      text-align: center;
      font-family: 'Roboto', sans-serif;
 }
+
 
 ul.location_icon {
      text-align: center;
@@ -787,14 +897,14 @@ ul.location_icon li {
      display: inline-block;
      font-size: 17px;
      line-height: 20px;
-     color: #fff;
+     color: rgb(253 224 71);
      text-align: center;
      padding: 0 40px;
 }
 
 ul.location_icon li a {
      font-size: 40px;
-     color: #fff;
+     color:rgb(253 224 71);
      line-height: 30px;
      display: block;
 }
@@ -812,6 +922,7 @@ ul.location_icon li a {
      text-align: center;
      padding-top: 25px;
      font-weight: normal;
+   
 }
 
 .copyright a {
@@ -820,6 +931,9 @@ ul.location_icon li a {
 
 .copyright a:hover {
      color: #03cafc;
+}
+.ins{
+     margin-left: 360px;
 }
 
 
@@ -830,7 +944,7 @@ ul.location_icon li a {
 
 .position_head .header {
      position: inherit;
-     background: #03cafc;
+     background:    #4b4b4c;
 }
 
 .position_head .glasses,
