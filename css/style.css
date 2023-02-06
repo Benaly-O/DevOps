@@ -402,7 +402,7 @@ button {
 
 .titlepage h2 {
      font-size: 35px;
-     color: #2a2a2c;
+     color: rgb(113 113 122);
      line-height: 45px;
      font-weight: bold;
      padding: 0;
@@ -417,8 +417,8 @@ button {
 .read_more {
      font-size: 17px;
      background-color: transparent;
-     border: #ffffff solid 2px;
-     color: #1a1a1a;
+     border: rgb(253 224 71) solid 2px;
+     color: rgb(30 41 59);
      padding: 15px 0px;
      width: 100%;
      max-width: 222px;
@@ -430,8 +430,8 @@ button {
 }
 
 .read_more:hover {
-     background: #03cafc;
-     color: #fff !important;
+     background:rgb(253 224 71);
+     color: rgb(113 113 122) !important;
      transition: ease-in all 0.5s;
 }
 
@@ -439,7 +439,7 @@ button {
 /** about section **/
 
 .about {
-     border-bottom: #000 solid 1px;
+     border-bottom: rgb(113 113 122)solid 1px;
      padding: 130px 0 90px 0;
 }
 
@@ -464,20 +464,21 @@ button {
 }
 
 .about .titlepage {
-     border: #000 solid 1px;
+     border: rgb(30 41 59)solid 1px;
      padding: 40px 40px;
      z-index: 10018;
-     background: #fff;
+     background: rgb(253 224 71);
      margin-right: 40px;
 }
 
 .about .titlepage p {
-     color: #2a2a2c;
+     color:rgb(113 113 122);
      font-size: 17px;
      line-height: 35px;
      font-weight: 400;
      padding-top: 20px;
 }
+
 
 .about .read_more {
      border: #1a1a1a solid 2px;
@@ -493,20 +494,21 @@ button {
 /** Our  Glasses section **/
 
 .glasses {
-     background: #fff;
+     background: rgb(113 113 122);
      margin-top: 90px;
 }
 
-.glasses .titlepage {
+.glasses .titlepage2 {
      text-align: center;
      padding-bottom: 60px;
 }
 
-.glasses .titlepage p {
+.glasses .titlepage2 p {
      font-size: 17px;
      line-height: 30px;
      font-weight: 400;
      padding-top: 10px;
+     
 }
 
 .blu {
@@ -519,7 +521,7 @@ button {
 
 .glasses .glasses_box {
      text-align: center;
-     border: #555556 solid 1px;
+     border:rgb(253 224 71)solid 1px;
      border-radius: 2px;
      padding: 120px 0px 30px 0px;
      margin-bottom: 30px;
@@ -530,26 +532,32 @@ button {
 }
 
 .glasses .glasses_box h3 {
-     color:rgb(113 113 122);
+     color:rgb(253 224 71);
      font-size: 22px;
      line-height: 20px;
      padding: 70px 0px 9px 0px;
 }
 
 .glasses .glasses_box p {
-     color: rgb(113 113 122);
+     color: rgb(253 224 71);
      font-size: 18px;
      line-height: 28px;
      font-weight: 400;
 }
 
 .glasses .read_more {
-     border: rgb(113 113 122) 2px;
+     border: rgb(253 224 71) 2px;
+    
      font-weight: 500;
      display: block;
      margin: 0 auto;
      margin-top: 44px;
 }
+.titlepage2 h2{
+     color: rgb(253 224 71);  
+}
+
+
 
 
 /** end Our  Glasses section **/
@@ -559,9 +567,9 @@ button {
 
 .shop {
      margin-top: 90px;
-     background: #fefdf9;
-     border-top: #f2f1ed solid 1px;
-     border-bottom: #f2f1ed solid 1px;
+     background: rgb(253 224 71);
+     border-top: rgb(253 224 71) 1px;
+     border-bottom: rgb(253 224 71) 1px;
 }
 
 .shop .shop_img figure {
@@ -594,15 +602,15 @@ button {
 }
 
 .shop .titlepage h2 {
-     color: #fff;
-     border-bottom: #fff solid 1px;
+     color:  rgb(253 224 71);
+     border-bottom: rgb(253 224 71) solid 1px;
      padding-bottom: 10px;
      float: left;
      clear: both;
 }
 
 .shop .titlepage p {
-     color: #fff;
+     color: rgb(253 224 71);
      font-size: 17px;
      line-height: 30px;
      padding: 40px 0px 80px 0;
@@ -611,7 +619,7 @@ button {
 }
 
 .shop .titlepage .read_more {
-     color: #fff !important
+     color:rgb(30 41 59) !important
 }
 
 
@@ -731,14 +739,15 @@ button {
 .main_form {
      position: absolute;
      z-index: 999;
-     background: #fff;
+     background: rgb(253 224 71) ;
+     height: 800px;
      padding: 40px 50px;
      margin-top: 107px;
 }
 
 .main_form .contactus {
      border-bottom: #111111 solid 1px;
-     margin-bottom: 25px;
+     margin-bottom: 0px;
      width: 100%;
      height: 57px;
      background: transparent;
@@ -772,11 +781,11 @@ button {
 }
 
 .send_btn {
-     background: #03cafc;
+     background: rgb(113 113 122);
      font-weight: 600;
      font-size: 18px;
      width: 100%;
-     color: #fff;
+     color: rgb(253 224 71);
      height: 50px;
      border-radius: 30px;
      margin-top: 20px;
@@ -835,7 +844,7 @@ h1 :hover{
   margin-bottom: 100px;
 }
 p a{
-     color: rgb(113 113 122);
+     color: c;
   text-decoration: none;
 
 }
