@@ -39,7 +39,7 @@ html {
 }
 
 body {
-     background-color:rgb(113 113 122);
+     background-image: 'images/back2.jpg';
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -263,7 +263,7 @@ button {
 
 .navigation.navbar {
      float: right;
-     background: rgb(113 113 122);;
+     background: rgb(253 224 71);
      clear: both;
      padding: 23px 25px !important;
      border-radius: 64px;
@@ -271,7 +271,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 20px;
-     color: rgb(253 224 71);
+     color:  rgb(113 113 122);
      font-size: 17px;
      line-height: 20px;
      font-weight: 500;
@@ -294,11 +294,11 @@ button {
 }
 
 .login_btn a {
-     background: rgb(253 224 71);
+     background:  rgb(113 113 122);
      padding: 9px 32px !important;
      display: inline;
      border-radius: 20px;
-     color:  rgb(113 113 122)!important;
+     color:  rgb(253 224 71)!important;
      margin: 0 10px;
 }
 
@@ -402,7 +402,7 @@ button {
 
 .titlepage h2 {
      font-size: 35px;
-     color: rgb(113 113 122);
+     color:rgb(82 82 91);
      line-height: 45px;
      font-weight: bold;
      padding: 0;
@@ -430,8 +430,8 @@ button {
 }
 
 .read_more:hover {
-     background:rgb(253 224 71);
-     color: rgb(113 113 122) !important;
+     background:#4b4b4c;
+     color:  rgb(253 224 71)!important;
      transition: ease-in all 0.5s;
 }
 
@@ -439,7 +439,7 @@ button {
 /** about section **/
 
 .about {
-     border-bottom: rgb(113 113 122)solid 1px;
+     border-bottom: rgb(82 82 91)solid 1px;
      padding: 130px 0 90px 0;
 }
 
@@ -453,7 +453,7 @@ button {
      width: 220px;
      height: 411px;
      right: -30px;
-     background: url(../images/about_right_cross.jpg);
+     background:  rgb(82 82 91);
      background-repeat: no-repeat;
      top: -27px;
      z-index: -1;
@@ -464,7 +464,7 @@ button {
 }
 
 .about .titlepage {
-     border: rgb(30 41 59)solid 1px;
+     border: rgb(82 82 91)solid 1px;
      padding: 40px 40px;
      z-index: 10018;
      background: rgb(253 224 71);
@@ -472,7 +472,7 @@ button {
 }
 
 .about .titlepage p {
-     color:rgb(113 113 122);
+     color:rgb(82 82 91);
      font-size: 17px;
      line-height: 35px;
      font-weight: 400;
@@ -481,8 +481,8 @@ button {
 
 
 .about .read_more {
-     border: #1a1a1a solid 2px;
-     color: #1a1a1a;
+     border:  rgb(253 224 71) solid 2px;
+     color: rgb(82 82 91);
      font-weight: 500;
      margin-top: 44px;
 }
@@ -494,8 +494,11 @@ button {
 /** Our  Glasses section **/
 
 .glasses {
-     background: rgb(113 113 122);
-     margin-top: 90px;
+     background:  rgb(253 224 71);
+     margin-top: 100px;
+     margin-left: 40px;
+     margin-right: 40px;
+     border-radius: 10px;
 }
 
 .glasses .titlepage2 {
@@ -508,20 +511,21 @@ button {
      line-height: 30px;
      font-weight: 400;
      padding-top: 10px;
+     color: rgb(82 82 91);
      
 }
 
 .blu {
-     color:rgb(253 224 71);;
+     color:rgb(253 224 71);
      text-transform: initial;
 }
 .blu2{
-     color:rgb(113 113 122);
+     color:rgb(82 82 91);
 }
 
 .glasses .glasses_box {
      text-align: center;
-     border:rgb(253 224 71)solid 1px;
+     border:rgb(82 82 91)solid 1px;
      border-radius: 2px;
      padding: 120px 0px 30px 0px;
      margin-bottom: 30px;
@@ -532,29 +536,31 @@ button {
 }
 
 .glasses .glasses_box h3 {
-     color:rgb(253 224 71);
+     color:rgb(82 82 91);
      font-size: 22px;
      line-height: 20px;
      padding: 70px 0px 9px 0px;
 }
 
 .glasses .glasses_box p {
-     color: rgb(253 224 71);
+     color: rgb(82 82 91);
      font-size: 18px;
      line-height: 28px;
      font-weight: 400;
 }
 
 .glasses .read_more {
-     border: rgb(253 224 71) 2px;
+     border:  rgb(82 82 91) solid 2px;
     
      font-weight: 500;
      display: block;
      margin: 0 auto;
-     margin-top: 44px;
+     margin-top: 50px;
+     margin-bottom: 20px;
 }
 .titlepage2 h2{
-     color: rgb(253 224 71);  
+     margin-top: 10px;
+     color: rgb(82 82 91);  
 }
 
 
@@ -586,7 +592,7 @@ button {
 
 .shop .max_width {
      text-align: left;
-     background:rgb(113 113 122);
+     background:rgb(253 224 71);
      height: 100%;
      padding-top: 86px;
      padding-left: 50px;
@@ -602,15 +608,15 @@ button {
 }
 
 .shop .titlepage h2 {
-     color:  rgb(253 224 71);
-     border-bottom: rgb(253 224 71) solid 1px;
+     color: rgb(82 82 91);
+     border-bottom:rgb(82 82 91) solid 1px;
      padding-bottom: 10px;
      float: left;
      clear: both;
 }
 
 .shop .titlepage p {
-     color: rgb(253 224 71);
+     color: rgb(82 82 91);
      font-size: 17px;
      line-height: 30px;
      padding: 40px 0px 80px 0;
@@ -619,8 +625,13 @@ button {
 }
 
 .shop .titlepage .read_more {
-     color:rgb(30 41 59) !important
+     color: rgb(253 224 71)!important;
+     border:rgb(82 82 91) solid 4px;
+     background:rgb(82 82 91) ;
+     
 }
+
+
 
 
 /** end Our shop section **/
@@ -824,7 +835,7 @@ h1 :hover{
   background: rgb(253 224 71);;
   
   width: 550px;
-  height: 600px;
+  height: 550px;
   border-radius: 20px;
   margin-top: 80px;
   margin-left: 300px;
@@ -836,28 +847,44 @@ h1 :hover{
   background: rgb(253 224 71);;
   
   width: 550px;
-  height: 850px;
+  height: 860px;
   border-radius: 20px;
   margin-top: 80px;
   margin-left: 300px;
   opacity: 2;
   margin-bottom: 100px;
 }
+.div3
+{
+  background: rgb(253 224 71);;
+  
+  width: 550px;
+  height: 650px;
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-left: 300px;
+  opacity: 2;
+  margin-bottom: 80px;
+}
 p a{
-     color: c;
+     color:  rgb(113 113 122);
   text-decoration: none;
+  margin-right: 20px;
 
 }
 .btn
 {
   border-radius: 30px;
-  margin-top: 60px;
+  margin-top: 40px;
   background:  rgb(113 113 122);
   
   font-size: 18px;
  
   color: rgb(253 224 71);;
   height: 40px;
+  width: 250px;
+  margin-left: 10px;
+  
  
   transition: ease-in all 0.5s;
   text-transform: uppercase;
@@ -887,7 +914,7 @@ input{
 }
 
 form input[type="email"],form input[type="password"],form input[type="text"], 
-form input[type="text"],form input[type="password"]
+form input[type="text"],form input[type="password"],form textarea
 {
   border: none;
   border-bottom: 3px solid  rgb(113 113 122);
@@ -912,11 +939,19 @@ input::placeholder
 /** footer **/
 
 .footer {
-     background: rgb(253 224 71);
+     background:  rgb(82 82 91) ;
      padding-top: 90px;
      text-align: center;
      font-family: 'Roboto', sans-serif;
 }
+.footer2 {
+     background:  rgb(82 82 91) ;
+     padding-top: 90px;
+     
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+}
+
 
 
 ul.location_icon {
@@ -927,14 +962,14 @@ ul.location_icon li {
      display: inline-block;
      font-size: 17px;
      line-height: 20px;
-     color:rgb(113 113 122);;
+     color: rgb(253 224 71);
      text-align: center;
      padding: 0 40px;
 }
 
 ul.location_icon li a {
      font-size: 40px;
-     color:rgb(113 113 122);
+     color: rgb(253 224 71);
      line-height: 30px;
      display: block;
 }
@@ -942,11 +977,11 @@ ul.location_icon li a {
 .copyright {
      margin-top: 80px;
      padding-bottom: 20px;
-     background: rgb(113 113 122);;
+     background:  rgb(253 224 71);;
 }
 
 .copyright p {
-     color:rgb(113 113 122);;
+     color: rgb(253 224 71);;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
@@ -974,7 +1009,7 @@ ul.location_icon li a {
 
 .position_head .header {
      position: inherit;
-     background:    rgb(253 224 71);
+     background:     rgb(82 82 91);
 }
 
 .position_head .glasses,

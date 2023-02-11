@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -32,7 +32,7 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
    </head>
    <!-- body -->
-   <body class="main-layout position_head">
+   <body class="main-layout position_head" background="images/back2.jpg">
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
@@ -95,41 +95,27 @@
       <div id="contact" class="contact">
          <div class="container">
             <div class="row">
-               <div class="col-md-6">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <h3>Contact Us</h3>
-                        </div>
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactusmess" placeholder="Message" type="type" Message="Name">
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
+            
+                <div class="div3">
+                <form align="center" action="" method="">
+                    <h1>Contactez nous</h1> 
+                    <input type="text" name="nom" placeholder="Nom" id="input1"> <br>
+
+	                <input type="text" name="prenom" placeholder="Prenom" id="input2"> <br>
+
+                  <input type='text' name='telephone' placeholder="Téléphone" id="input1"><br>
+                  <textarea id="input1" name="message"
+                  rows="5" cols="33" placeholder="Votre message"> </textarea>
+                  
+                     <input type="submit" value="Envoyer" class="btn" >  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                     
+                   
+                
+                 </form>
+                 </div>
+               
             </div>
          </div>
-         <div class="container-fluid">
-            <div class="map_section">
-               <div id="map">
-               </div>
-            </div>
-         </div>
-      </div>
-      </div>
-      <!-- end contact section -->
       <!--  footer -->
       <footer>
          <div class="footer">
@@ -155,25 +141,7 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <script>
-         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-         // Australia.
-         function initMap() {
-           var map = new google.maps.Map(document.getElementById('map'), {
-             zoom: 11,
-             center: {lat: 40.645037, lng: -73.880224},
-             });
-         
-         var image = 'images/maps-and-flags.png';
-         var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
-             map: map,
-             icon: image
-           });
-         }
-      </script>
-      <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-      <!-- end google map js --> 
+      
+      
    </body>
 </html>
