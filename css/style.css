@@ -914,7 +914,7 @@ input{
 }
 
 form input[type="email"],form input[type="password"],form input[type="text"], 
-form input[type="text"],form input[type="password"],form textarea
+form input[type="text"],form input[type="password"],form input[type="image"],form textarea
 {
   border: none;
   border-bottom: 3px solid  rgb(113 113 122);
