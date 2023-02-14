@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -32,7 +32,7 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
    </head>
    <!-- body -->
-   <body class="main-layout position_head"   background="images/back2.jpg">
+   <body class="main-layout position_head" background="images/back2.jpg">
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
@@ -90,61 +90,31 @@
          </div>
       </header>
       <!-- end header inner -->
-     
       <!-- end header -->
-      <!-- banner -->
-      <section class="banner_main">
-         <div id="banner1" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-               <li data-target="#banner1" data-slide-to="0" class="active"></li>
-               <li data-target="#banner1" data-slide-to="1"></li>
-               <li data-target="#banner1" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="text-bg">
-                           <h1> <span class="blu">Bienvenu<br>À sun-optics</span></h1>
-                           <figure><img src="images/banner_img.png" alt="#"/></figure>
-                           <a class="read_more" href="#">Achetez</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="text-bg">
-                           <h1> <span class="blu">Bienvenu<br>À sun-optics</span></h1>
-                           <figure><img src="images/banner_img.png" alt="#"/></figure>
-                           <a class="read_more" href="#">Achetez</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="text-bg">
-                           <h1> <span class="blu">Bienvenu <br>À sun-optics</span></h1>
-                           <figure><img src="images/banner_img.png" alt="#"/></figure>
-                           <a class="read_more" href="#">Achetez</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+      <!-- contact section -->
+      <div id="contact" class="contact">
+         <div class="container">
+            <div class="row">
+            
+                <div class="div2">
+                <form align="center" action="" method="">
+                    <h1>Inscrivez vous ici</h1> 
+                    <input type="text" name="nom" placeholder="Nom" id="input1"> <br>
+
+	                <input type="text" name="prenom" placeholder="Prenom" id="input2"> <br>
+	
+                  <input type='email' name='mail' placeholder="Email" id="input1"><br>
+                  <input type='text' name='telephone' placeholder="Téléphone" id="input1"><br>
+                  <input type='password' name='mot_de_passe'placeholder="Mot De Passe" id="input2"><br>
+                  <input type='password' name="mot_passe_confi" placeholder="confirmez le mot de pass" id="input2">
+	               <br>
+                     <input type="submit" value="Inscription" class="btn" >  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                
+                 </form>
+                 </div>
+               
             </div>
-            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
-            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            </a>
-            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </a>
          </div>
-      </section>
-      <!-- end banner -->
-   
       <!--  footer -->
       <footer>
          <div class="footer">
@@ -160,7 +130,6 @@
                </div>
             </div>
             
-         </div>
       </footer>
       <!-- end footer -->
       <!-- Javascript files-->
@@ -171,26 +140,7 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <script>
-         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-         // Australia.
-         function initMap() {
-           var map = new google.maps.Map(document.getElementById('map'), {
-             zoom: 11,
-             center: {lat: 40.645037, lng: -73.880224},
-             });
-         
-         var image = 'images/maps-and-flags.png';
-         var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
-             map: map,
-             icon: image
-           });
-         }
-      </script>
-      <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-      <!-- end google map js --> 
+      
+      
    </body>
 </html>
-

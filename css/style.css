@@ -39,7 +39,7 @@ html {
 }
 
 body {
-     color: #666666;
+     background-image: 'images/back2.jpg';
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -52,7 +52,7 @@ body {
 }
 
 a {
-     color: #1f1f1f;
+     color:rgb(113 113 122);
      text-decoration: none !important;
      outline: none !important;
      -webkit-transition: all .3s ease-in-out;
@@ -74,7 +74,11 @@ h6 {
      padding: 0 0 10px 0;
      font-weight: normal;
      line-height: normal;
+<<<<<<< HEAD
      color: #fdba04;/**couleur modifier**/
+=======
+     color: rgb(113 113 122);
+>>>>>>> origin/fadila
      margin: 0
 }
 
@@ -116,7 +120,11 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
+<<<<<<< HEAD
      color: #0e0d0d;/**#0e0d0d**/
+=======
+     color: rgb(113 113 122);
+>>>>>>> origin/fadila
      text-decoration: none!important;
      opacity: 1
 }
@@ -161,6 +169,7 @@ img {
      max-width: 100%;
      height:auto;
 }
+
 
  :focus {
      outline: 0;
@@ -262,7 +271,7 @@ button {
 
 .navigation.navbar {
      float: right;
-     background:  rgb(253 224 71);;
+     background: rgb(253 224 71);
      clear: both;
      padding: 23px 25px !important;
      border-radius: 64px;
@@ -270,7 +279,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 20px;
-     color: #070404;
+     color:  rgb(113 113 122);
      font-size: 17px;
      line-height: 20px;
      font-weight: 500;
@@ -278,11 +287,15 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
+<<<<<<< HEAD
 <<<<<<< HEAD:css/style.css
      color: rgb(253 224 71);;
 =======
      color: #FEE347;/**couleur des autres boutons**/
 >>>>>>> origin/denise:FrontEnd/css/style.css
+=======
+     color: rgb(82 82 91);
+>>>>>>> origin/fadila
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -301,16 +314,20 @@ button {
 }
 
 .login_btn a {
+<<<<<<< HEAD
      background: #343b3d;
+=======
+     background:  rgb(113 113 122);
+>>>>>>> origin/fadila
      padding: 9px 32px !important;
      display: inline;
      border-radius: 20px;
-     color: #fff !important;
+     color:  rgb(253 224 71)!important;
      margin: 0 10px;
 }
 
 .login_btn a:hover {
-     background: #000 !important;
+     background:rgb(82 82 91)!important;
 }
 
 .sea_icon a {
@@ -415,7 +432,11 @@ button {
 
 .titlepage h2 {
      font-size: 35px;
+<<<<<<< HEAD
      color: #2a2a2c;/**#2a2a2c**/
+=======
+     color:rgb(82 82 91);
+>>>>>>> origin/fadila
      line-height: 45px;
      font-weight: bold;
      padding: 0;
@@ -430,8 +451,8 @@ button {
 .read_more {
      font-size: 17px;
      background-color: transparent;
-     border: #ffffff solid 2px;
-     color: #1a1a1a;
+     border: rgb(253 224 71) solid 2px;
+     color: rgb(30 41 59);
      padding: 15px 0px;
      width: 100%;
      max-width: 222px;
@@ -443,8 +464,13 @@ button {
 }
 
 .read_more:hover {
+<<<<<<< HEAD
      background: #1c2f34;
      color: #fff !important;
+=======
+     background:#4b4b4c;
+     color:  rgb(253 224 71)!important;
+>>>>>>> origin/fadila
      transition: ease-in all 0.5s;
 }
 
@@ -452,7 +478,11 @@ button {
 /** about section **/
 
 .about {
+<<<<<<< HEAD
      border-bottom: #000 solid 1px;/**#000**/
+=======
+     border-bottom: rgb(82 82 91)solid 1px;
+>>>>>>> origin/fadila
      padding: 130px 0 90px 0;
 }
 
@@ -466,7 +496,7 @@ button {
      width: 220px;
      height: 411px;
      right: -30px;
-     background: url(../images/about_right_cross.jpg);
+     background:  rgb(82 82 91);
      background-repeat: no-repeat;
      top: -27px;
      z-index: -1;
@@ -477,24 +507,25 @@ button {
 }
 
 .about .titlepage {
-     border: #000 solid 1px;
+     border: rgb(82 82 91)solid 1px;
      padding: 40px 40px;
      z-index: 10018;
-     background: #fff;
+     background: rgb(253 224 71);
      margin-right: 40px;
 }
 
 .about .titlepage p {
-     color: #2a2a2c;
+     color:rgb(82 82 91);
      font-size: 17px;
      line-height: 35px;
      font-weight: 400;
      padding-top: 20px;
 }
 
+
 .about .read_more {
-     border: #1a1a1a solid 2px;
-     color: #1a1a1a;
+     border:  rgb(253 224 71) solid 2px;
+     color: rgb(82 82 91);
      font-weight: 500;
      margin-top: 44px;
 }
@@ -506,30 +537,46 @@ button {
 /** Our  Glasses section **/
 
 .glasses {
-     background: #fff;
-     margin-top: 90px;
+     background:  rgb(253 224 71);
+     margin-top: 100px;
+     margin-left: 40px;
+     margin-right: 40px;
+     border-radius: 10px;
 }
 
-.glasses .titlepage {
+.glasses .titlepage2 {
      text-align: center;
      padding-bottom: 60px;
 }
 
-.glasses .titlepage p {
+.glasses .titlepage2 p {
      font-size: 17px;
      line-height: 30px;
      font-weight: 400;
      padding-top: 10px;
+     color: rgb(82 82 91);
+     
 }
 
 .blu {
+<<<<<<< HEAD
      color: #FEE347;/** couleur Welcome**/
+=======
+     color:rgb(253 224 71);
+>>>>>>> origin/fadila
      text-transform: initial;
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/**police**/
 }
+<<<<<<< HEAD
+=======
+.blu2{
+     color:rgb(82 82 91);
+}
+
+>>>>>>> origin/fadila
 .glasses .glasses_box {
      text-align: center;
-     border: #555556 solid 1px;
+     border:rgb(82 82 91)solid 1px;
      border-radius: 2px;
      padding: 120px 0px 30px 0px;
      margin-bottom: 30px;
@@ -540,26 +587,34 @@ button {
 }
 
 .glasses .glasses_box h3 {
-     color: #100d0d;
+     color:rgb(82 82 91);
      font-size: 22px;
      line-height: 20px;
      padding: 70px 0px 9px 0px;
 }
 
 .glasses .glasses_box p {
-     color: #2a2a2c;
+     color: rgb(82 82 91);
      font-size: 18px;
      line-height: 28px;
      font-weight: 400;
 }
 
 .glasses .read_more {
-     border: #1a1a1a solid 2px;
+     border:  rgb(82 82 91) solid 2px;
+    
      font-weight: 500;
      display: block;
      margin: 0 auto;
-     margin-top: 44px;
+     margin-top: 50px;
+     margin-bottom: 20px;
 }
+.titlepage2 h2{
+     margin-top: 10px;
+     color: rgb(82 82 91);  
+}
+
+
 
 
 /** end Our  Glasses section **/
@@ -569,9 +624,9 @@ button {
 
 .shop {
      margin-top: 90px;
-     background: #fefdf9;
-     border-top: #f2f1ed solid 1px;
-     border-bottom: #f2f1ed solid 1px;
+     background: rgb(253 224 71);
+     border-top: rgb(253 224 71) 1px;
+     border-bottom: rgb(253 224 71) 1px;
 }
 
 .shop .shop_img figure {
@@ -588,7 +643,7 @@ button {
 
 .shop .max_width {
      text-align: left;
-     background: #030404;
+     background:rgb(253 224 71);
      height: 100%;
      padding-top: 86px;
      padding-left: 50px;
@@ -604,15 +659,15 @@ button {
 }
 
 .shop .titlepage h2 {
-     color: #fff;
-     border-bottom: #fff solid 1px;
+     color: rgb(82 82 91);
+     border-bottom:rgb(82 82 91) solid 1px;
      padding-bottom: 10px;
      float: left;
      clear: both;
 }
 
 .shop .titlepage p {
-     color: #fff;
+     color: rgb(82 82 91);
      font-size: 17px;
      line-height: 30px;
      padding: 40px 0px 80px 0;
@@ -621,8 +676,13 @@ button {
 }
 
 .shop .titlepage .read_more {
-     color: #fff !important
+     color: rgb(253 224 71)!important;
+     border:rgb(82 82 91) solid 4px;
+     background:rgb(82 82 91) ;
+     
 }
+
+
 
 
 /** end Our shop section **/
@@ -741,14 +801,15 @@ button {
 .main_form {
      position: absolute;
      z-index: 999;
-     background: #fff;
+     background: rgb(253 224 71) ;
+     height: 800px;
      padding: 40px 50px;
      margin-top: 107px;
 }
 
 .main_form .contactus {
      border-bottom: #111111 solid 1px;
-     margin-bottom: 25px;
+     margin-bottom: 0px;
      width: 100%;
      height: 57px;
      background: transparent;
@@ -782,11 +843,15 @@ button {
 }
 
 .send_btn {
+<<<<<<< HEAD
      background: #FEE347;/** couleur bouton send**/
+=======
+     background: rgb(113 113 122);
+>>>>>>> origin/fadila
      font-weight: 600;
      font-size: 18px;
      width: 100%;
-     color: #fff;
+     color: rgb(253 224 71);
      height: 50px;
      border-radius: 30px;
      margin-top: 20px;
@@ -811,9 +876,13 @@ body
 }
 h1
 {
-  color: #4b4b4c;
+  color: rgb(113 113 122);
   font-size: 25px;
   padding-top: 105px;
+}
+h1 :hover{
+     color: rgb(113 113 122);
+     transition: ease-in all 0.5s;
 }
 
 .div1
@@ -821,7 +890,31 @@ h1
   background: rgb(253 224 71);;
   
   width: 550px;
-  height: 600px;
+  height: 550px;
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-left: 300px;
+  opacity: 2;
+  margin-bottom: 80px;
+}
+.div2
+{
+  background: rgb(253 224 71);;
+  
+  width: 550px;
+  height: 860px;
+  border-radius: 20px;
+  margin-top: 80px;
+  margin-left: 300px;
+  opacity: 2;
+  margin-bottom: 100px;
+}
+.div3
+{
+  background: rgb(253 224 71);;
+  
+  width: 550px;
+  height: 650px;
   border-radius: 20px;
   margin-top: 80px;
   margin-left: 300px;
@@ -829,31 +922,35 @@ h1
   margin-bottom: 80px;
 }
 p a{
-     color: #4b4b4c;
+     color:  rgb(113 113 122);
   text-decoration: none;
+  margin-right: 20px;
 
 }
 .btn
 {
   border-radius: 30px;
-  margin-top: 60px;
-  background:  #4b4b4c;
+  margin-top: 40px;
+  background:  rgb(113 113 122);
   
   font-size: 18px;
  
   color: rgb(253 224 71);;
   height: 40px;
+  width: 250px;
+  margin-left: 10px;
+  
  
   transition: ease-in all 0.5s;
   text-transform: uppercase;
   
 }
 .btn:hover {
-     background: rgb(253 224 71);;
+     background:  rgb(82 82 91);
      transition: ease-in all 0.5s;
 }
 p a:hover{
-  color: rgb(253 224 71);;
+  color:  rgb(82 82 91);
 }
 input{
   border-radius: 5px;
@@ -871,19 +968,20 @@ input{
    width: 320px;
 }
 
-form input[type="email"],form input[type="password"]
+form input[type="email"],form input[type="password"],form input[type="text"], 
+form input[type="text"],form input[type="password"],form input[type="image"],form textarea
 {
   border: none;
-  border-bottom: 3px solid   #4b4b4c;;
+  border-bottom: 3px solid  rgb(113 113 122);
   background-color: transparent;
   outline: none;
   height: 40px;
   display: 16px;
-  color: #4b4b4c;;
+  color: rgb(113 113 122);
 }
 input::placeholder
 {
-  color: #4b4b4c;;
+  color: rgb(113 113 122);
 }
 
 
@@ -896,15 +994,27 @@ input::placeholder
 /** footer **/
 
 .footer {
+<<<<<<< HEAD
 <<<<<<< HEAD:css/style.css
      background:  #4b4b4c;
 =======
      background:#FEE347;/**modifier couleur**/
 >>>>>>> origin/denise:FrontEnd/css/style.css
+=======
+     background:  rgb(82 82 91) ;
+>>>>>>> origin/fadila
      padding-top: 90px;
      text-align: center;
      font-family: 'Roboto', sans-serif;
 }
+.footer2 {
+     background:  rgb(82 82 91) ;
+     padding-top: 90px;
+     
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+}
+
 
 
 ul.location_icon {
@@ -922,7 +1032,7 @@ ul.location_icon li {
 
 ul.location_icon li a {
      font-size: 40px;
-     color:rgb(253 224 71);
+     color: rgb(253 224 71);
      line-height: 30px;
      display: block;
 }
@@ -930,11 +1040,11 @@ ul.location_icon li a {
 .copyright {
      margin-top: 80px;
      padding-bottom: 20px;
-     background: #fbfdfd;
+     background:  rgb(253 224 71);;
 }
 
 .copyright p {
-     color: #292929;
+     color: rgb(253 224 71);;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
@@ -962,7 +1072,7 @@ ul.location_icon li a {
 
 .position_head .header {
      position: inherit;
-     background:    #4b4b4c;
+     background:     rgb(82 82 91);
 }
 
 .position_head .glasses,
