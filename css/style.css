@@ -74,7 +74,7 @@ h6 {
      padding: 0 0 10px 0;
      font-weight: normal;
      line-height: normal;
-     color: #111111;
+     color: #fdba04;/**couleur modifier**/
      margin: 0
 }
 
@@ -116,7 +116,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-     color: #212121;
+     color: #0e0d0d;/**#0e0d0d**/
      text-decoration: none!important;
      opacity: 1
 }
@@ -159,7 +159,7 @@ a,
 
 img {
      max-width: 100%;
-     height: auto;
+     height:auto;
 }
 
  :focus {
@@ -278,14 +278,22 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
+<<<<<<< HEAD:css/style.css
      color: rgb(253 224 71);;
+=======
+     color: #FEE347;/**couleur des autres boutons**/
+>>>>>>> origin/denise:FrontEnd/css/style.css
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
+<<<<<<< HEAD:css/style.css
      color:  #4b4b4c;
+=======
+     color: #FEE347;/**couleur du bouton contact us**/
+>>>>>>> origin/denise:FrontEnd/css/style.css
 }
 
 .navbar-expand-md .navbar-nav {
@@ -293,7 +301,7 @@ button {
 }
 
 .login_btn a {
-     background: #03cafc;
+     background: #343b3d;
      padding: 9px 32px !important;
      display: inline;
      border-radius: 20px;
@@ -315,19 +323,25 @@ button {
      background: transparent;
      position: absolute;
      z-index: 999;
+<<<<<<< HEAD:css/style.css
      border-top:  #4b4b4c 11px;
     
+=======
+     border-top: #FEE347 solid 11px;/**haut page**/
+>>>>>>> origin/denise:FrontEnd/css/style.css
 }
 
 .logo {
-     padding-top: 14px;
+     padding-top: 1px;
+     width: 150px;/** dimension de haut de page**/
+     height: auto;
 }
 
 
 /** banner section **/
 
 .banner_main {
-     background: #f5f6f6;
+     background: #f5f6f6;/**couleur backgroud ensemble**/
      padding: 198px 0px 90px 0px;
 }
 
@@ -336,7 +350,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #070404;
+     color: #141313;/**to our sunglasses**/
      font-size: 60px;
      line-height: 76px;
      padding-bottom: 45px;
@@ -380,8 +394,8 @@ button {
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-next:focus {
      background: transparent;
-     border: #03cafc solid 2px;
-     color: #03cafc;
+     border: #FEE347 solid 2px;/**couleur modifier**/
+     color: #FEE347;/**couleur modifier**/
 }
 
 #banner1 a.carousel-control-prev {
@@ -401,7 +415,7 @@ button {
 
 .titlepage h2 {
      font-size: 35px;
-     color: #2a2a2c;
+     color: #2a2a2c;/**#2a2a2c**/
      line-height: 45px;
      font-weight: bold;
      padding: 0;
@@ -429,7 +443,7 @@ button {
 }
 
 .read_more:hover {
-     background: #03cafc;
+     background: #1c2f34;
      color: #fff !important;
      transition: ease-in all 0.5s;
 }
@@ -438,7 +452,7 @@ button {
 /** about section **/
 
 .about {
-     border-bottom: #000 solid 1px;
+     border-bottom: #000 solid 1px;/**#000**/
      padding: 130px 0 90px 0;
 }
 
@@ -509,10 +523,10 @@ button {
 }
 
 .blu {
-     color: #03cafc;
+     color: #FEE347;/** couleur Welcome**/
      text-transform: initial;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/**police**/
 }
-
 .glasses .glasses_box {
      text-align: center;
      border: #555556 solid 1px;
@@ -768,7 +782,7 @@ button {
 }
 
 .send_btn {
-     background: #03cafc;
+     background: #FEE347;/** couleur bouton send**/
      font-weight: 600;
      font-size: 18px;
      width: 100%;
@@ -882,7 +896,11 @@ input::placeholder
 /** footer **/
 
 .footer {
+<<<<<<< HEAD:css/style.css
      background:  #4b4b4c;
+=======
+     background:#FEE347;/**modifier couleur**/
+>>>>>>> origin/denise:FrontEnd/css/style.css
      padding-top: 90px;
      text-align: center;
      font-family: 'Roboto', sans-serif;
@@ -930,7 +948,7 @@ ul.location_icon li a {
 }
 
 .copyright a:hover {
-     color: #03cafc;
+     color: #FEE347;/**modifier couleur**/
 }
 .ins{
      margin-left: 360px;
@@ -951,4 +969,13 @@ ul.location_icon li a {
 .shop {
      margin-bottom: 90px;
 }
+<<<<<<< HEAD:css/style.css
 
+=======
+/**
+blanc 
+blanc sale #f5f6f6
+jaune #FEE347
+
+**/
+>>>>>>> origin/denise:FrontEnd/css/style.css
