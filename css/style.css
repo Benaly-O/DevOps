@@ -39,7 +39,7 @@ html {
 }
 
 body {
-     background-image: 'images/back2.jpg';
+     background-image: 'images/lunette.jpg';
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -336,7 +336,7 @@ button {
      border-top:  #4b4b4c 11px;
     **/
 
-     border-top: #FEE347 solid 11px;/**haut page**/
+     border-top: #060606 solid 11px;/**haut page**/
 /**>>>>>>> origin/denise:FrontEnd/css/style.css**/
 }
 
@@ -488,7 +488,7 @@ button {
      width: 220px;
      height: 411px;
      right: -30px;
-     background:  rgb(82 82 91);
+     background:  rgb(0, 0, 11);/**rgb(82 82 91)**/
      background-repeat: no-repeat;
      top: -27px;
      z-index: -1;
@@ -499,7 +499,7 @@ button {
 }
 
 .about .titlepage {
-     border: rgb(82 82 91)solid 1px;
+     border: rgb(0, 0, 11)solid 1px;
      padding: 40px 40px;
      z-index: 10018;
      background: rgb(252, 252, 248);/**background about**/
@@ -546,7 +546,7 @@ button {
      line-height: 30px;
      font-weight: 400;
      padding-top: 10px;
-     color: rgb(82 82 91);
+     color: rgb(0, 0, 11);/**rgb(82 82 91)**/
      
 }
 
@@ -995,14 +995,14 @@ input::placeholder
 >>>>>>> origin/denise:FrontEnd/css/style.css
 **/
 
-     background:  rgb(82 82 91) ;
+     background:  rgb(0, 0, 12) ;
 /**>>>>>>> origin/fadila **/
-     padding-top: 90px;
+     padding-top: 10px;
      text-align: center;
      font-family: 'Roboto', sans-serif;
 }
 .footer2 {
-     background:  rgb(82 82 91) ;
+     background:  rgb(7, 7, 7) ;
      padding-top: 90px;
      
      text-align: center;
@@ -1030,15 +1030,15 @@ ul.location_icon li a {
      line-height: 30px;
      display: block;
 }
-
+/**
 .copyright {
      margin-top: 80px;
      padding-bottom: 20px;
-     background:  rgb(253 224 71);;
+     background:  rgb(253 224 71);
 }
 
 .copyright p {
-     color: rgb(253 224 71);;
+     color: rgb(253 224 71);
      font-size: 18px;
      line-height: 22px;
      text-align: center;
@@ -1052,7 +1052,7 @@ ul.location_icon li a {
 }
 
 .copyright a:hover {
-     color: #FEE347;/**modifier couleur**/
+     color: #FEE347;modifier couleur**/
 }
 .ins{
      margin-left: 360px;
