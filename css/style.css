@@ -271,7 +271,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 20px;
-     color:  rgb(113 113 122);/**couleur police header**/ 
+     color:  black;/**couleur police header**/ 
      font-size: 17px;
      line-height: 20px;
      font-weight: 500;
@@ -281,13 +281,14 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
 
 /**<<<<<<< HEAD:css/style.css
-     color: rgb(253 224 71);**/
+     
 
-     color: #131101;/**couleur des autres boutons
+     color:  #202021;/**couleur des autres boutons
 >>>>>>> origin/denise:FrontEnd/css/style.css**/
 
     /** color: rgb(82 82 91);
 /**>>>>>>> origin/fadila**/
+color:  rgb(113 113 122);
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -314,12 +315,12 @@ button {
      padding: 9px 32px !important;
      display: inline;
      border-radius: 20px;
-     color: rgb(113 113 122)!important;
+     color: black!important;
      margin: 0 10px;
 }
 
 .login_btn a:hover {
-     color:rgb(0, 0, 10)!important;
+     color:rgb(113 113 122)!important;
 }
 
 .sea_icon a {
@@ -336,7 +337,7 @@ button {
      border-top:  #4b4b4c 11px;
     **/
 
-     border-top: #060606 solid 11px;/**haut page**/
+    /**haut page**/
 /**>>>>>>> origin/denise:FrontEnd/css/style.css**/
 }
 
@@ -350,8 +351,8 @@ button {
 /** banner section **/
 
 .banner_main {
-     background: #f5f6f6;/**couleur backgroud ensemble**/
-     padding: 198px 0px 90px 0px;
+    /**couleur backgroud ensemble**/
+     padding-bottom: 50px;
 }
 
 .text-bg {
@@ -395,7 +396,7 @@ button {
      font-size: 30px;
      color: #131215;
      border-radius: 60px;
-     top: 43%;
+     top: 60%;
 }
 
 #banner1 .carousel-control-prev:hover,
@@ -444,7 +445,7 @@ button {
      font-size: 17px;
      background-color: transparent;
      border: rgb(253 224 71) solid 2px;
-     color: rgb(30 41 59);
+     color: black;
      padding: 15px 0px;
      width: 100%;
      max-width: 222px;
@@ -457,10 +458,10 @@ button {
 
 .read_more:hover {
 
-     background: #1c2f34;
+     background:black;
      color: #fff !important;
 
-     background:#4b4b4c;
+     
      color:  rgb(253 224 71)!important;
 /**>>>>>>> origin/fadila**/
      transition: ease-in all 0.5s;
@@ -516,8 +517,8 @@ button {
 
 
 .about .read_more {
-     border:  rgb(253 224 71) solid 2px;
-     color: rgb(82 82 91);
+     border:  black solid 2px;
+     color: black;
      font-weight: 500;
      margin-top: 44px;
 }
@@ -527,18 +528,15 @@ button {
 
 
 /** Our  Glasses section **/
-
-.glasses {
-   /**  background:  rgb(253 224 71);**/   
-     margin-top: 100px;
-     margin-left: 40px;
-     margin-right: 40px;
-     border-radius: 10px;
+#glassesb{
+     background-color: whitesmoke;
 }
+
 
 .glasses .titlepage {
      text-align: center;
      padding-bottom: 60px;
+     
 }
 
 .glasses .titlepage  {
@@ -548,6 +546,11 @@ button {
      padding-top: 10px;
      color: rgb(0, 0, 11);/**rgb(82 82 91)**/
      
+}
+.titlepage p{
+     color: #000;
+     font-family:sans-serif;
+     size: 100px;
 }
 
 .blu {
@@ -562,13 +565,13 @@ button {
 
 
 .blu2{
-     color:rgb(82 82 91);
+     color:black;
 }
 
 /**>>>>>>> origin/fadila**/
 .glasses .glasses_box {
      text-align: center;
-     border:rgb(82 82 91)solid 1px;
+     border:black solid 1px;
      border-radius: 2px;
      padding: 120px 0px 30px 0px;
      margin-bottom: 30px;
@@ -579,17 +582,20 @@ button {
 }
 
 .glasses .glasses_box h3 {
-     color:rgb(82 82 91);
+     color:black;
      font-size: 22px;
      line-height: 20px;
      padding: 70px 0px 9px 0px;
+     font-style: oblique;
 }
 
 .glasses .glasses_box p {
-     color: rgb(82 82 91);
+     color: black;
      font-size: 18px;
      line-height: 28px;
      font-weight: 400;
+     font-style: italic solid 4px;
+     font-weight: bold;
 }
 
 .glasses .read_more {
@@ -603,7 +609,8 @@ button {
 }
 .titlepage h2{ 
      margin-top: 10px;
-     color: rgb(82 82 91);  
+     color: black ; 
+     font-style: italic;
 }
 
 
@@ -665,11 +672,12 @@ button {
      padding: 40px 0px 80px 0;
      width: 100%;
      display: inline-block;
+  
 }
 
 .shop .titlepage .read_more {
      color: rgb(253 224 71)!important;
-     border:rgb(82 82 91) solid 4px;
+     border:rgb(253 224 71)solid 4px;
      background:rgb(82 82 91) ;
      
 }
@@ -868,7 +876,7 @@ body
 }
 h1
 {
-  color: rgb(113 113 122);
+  color: black;
   font-size: 25px;
   padding-top: 105px;
 }
@@ -914,7 +922,7 @@ h1 :hover{
   margin-bottom: 80px;
 }
 p a{
-     color:  rgb(113 113 122);
+     color:  black;
   text-decoration: none;
   margin-right: 20px;
 
@@ -923,7 +931,7 @@ p a{
 {
   border-radius: 30px;
   margin-top: 40px;
-  background:  rgb(113 113 122);
+  background:  black;
   
   font-size: 18px;
  
@@ -964,16 +972,16 @@ form input[type="email"],form input[type="password"],form input[type="text"],
 form input[type="text"],form input[type="password"],form input[type="image"],form textarea
 {
   border: none;
-  border-bottom: 3px solid  rgb(113 113 122);
+  border-bottom: 3px solid  black;
   background-color: transparent;
   outline: none;
   height: 40px;
   display: 16px;
-  color: rgb(113 113 122);
+  color: black;
 }
 input::placeholder
 {
-  color: rgb(113 113 122);
+  color: black;
 }
 
 
@@ -1052,8 +1060,8 @@ ul.location_icon li a {
 }
 
 .copyright a:hover {
-     color: #FEE347;modifier couleur**/
-}
+     color: #FEE347;modifier couleur
+}**/
 .ins{
      margin-left: 360px;
 }
@@ -1066,7 +1074,7 @@ ul.location_icon li a {
 
 .position_head .header {
      position: inherit;
-     background: #f5f6f6;/**couleur du header**/
+     /**couleur du header**/
 }
 
 .position_head .glasses,
