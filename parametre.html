@@ -86,7 +86,7 @@
     </header>
     <!-- end header inner -->
     <div class = "bonjour">
-      <h1>Bonjour M/Mlle <span>Nom complet de l'utilisateur</span></h1>
+      <h1>Bonjour M/Mlle <span class = "user">Nom complet de l'utilisateur</span></h1>
     </div>
     <div class="container">
 		<header>
@@ -94,10 +94,13 @@
 		</header>
 		<main>
 			<div class="section">
-				<h2>Profil</h2>
+				<h2 class = "profil">Profil</h2>
 				<form>
-					<label for="name">Nom complet:</label>
+					<label for="name">Nom:</label>
 					<input type="text" id="name" name="name"><br>
+
+               <label for="prename">Prenom:</label>
+					<input type="text" id="prename" name="prename"><br>
 
 					<label for="email">Adresse email:</label>
 					<input type="email" id="email" name="email"><br>
@@ -111,8 +114,8 @@
 					<input type="submit" value="Enregistrer">
 				</form>
 			</div>
-			<div class="section">
-				<h2>Préférences</h2>
+			<div class ="section">
+				<h2 class = "preferences">Préférences</h2>
 				<form>
 
 					<label for="language">Langue:</label>
@@ -124,8 +127,8 @@
 					<input type="submit" value="Enregistrer">
 				</form>
 			</div>
-			<div class="section">
-				<h2>Compte</h2>
+			<div class ="section">
+				<h2 clas = "compte">Compte</h2>
 				<form>
                <input type="submit" value="Deconnexion">
 					<p>Cette action est irréversible.</p>
